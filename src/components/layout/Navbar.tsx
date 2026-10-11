@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-text/10 bg-light/90 backdrop-blur-xl">
-      <div className="page-shell flex h-20 px-10 items-center justify-between">
+      <div className="page-shell flex h-20 lg:px-10 items-center justify-between">
         <Link to="/" className="font-serif text-3xl tracking-[-.06em]">VELORA</Link>
 
         <nav className="hidden items-center gap-8 md:flex">

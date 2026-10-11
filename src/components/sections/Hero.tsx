@@ -3,11 +3,11 @@ import FloatingPetals from "../effects/FloatingPetals";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-10 bg-light">
+    <section className="relative overflow-hidden  px-0 lg:px-10 bg-light">
       <div className="page-shell relative grid min-h-[calc(100vh-80px)] items-center gap-10 py-2 lg:grid-cols-[1fr_.9fr]">
-        <FloatingPetals />
+        <FloatingPetals/>
         <div className="relative z-10 max-w-3xl animate-fade-up lg:px-25">
-          <p className="mb-6 text-xs uppercase tracking-[.28em] text-muted">Beauty · Wellness · Ritual</p>
+          <p className="py-6 text-xs uppercase tracking-[.28em] text-muted">Beauty · Wellness · Ritual</p>
           <h1 className="display text-[18vw] text-text sm:text-8xl lg:text-[8.4vw]">
             Care for
             <br />
@@ -26,7 +26,7 @@ export default function Hero() {
           <img
             src="/images/hero-woman.jpg"
             alt="VELORA beauty experience"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover relative z-0"
           />
           <div className="absolute inset-4 rounded-[48%] border border-white/60" />
         </div>

@@ -8,7 +8,7 @@ const petals = [
   },
   {
     src: "/images/petal-b.png",
-    className: "left-[18%] bottom-[12%] w-35 rotate-45",
+    className: "hidden lg:block left-[18%] bottom-[12%] w-35 rotate-45",
     delay: "1s",
   },
   {
@@ -18,12 +18,12 @@ const petals = [
   },
   {
     src: "/images/petal-b.png",
-    className: "right-[20%] bottom-[15%] w-32 -rotate-12",
+    className: "right-[20%] bottom-[2%] lg:bottom-[15%]  w-32 -rotate-12",
     delay: "0.5s",
   },
   {
     src: "/images/petal-a.png",
-    className: "right-[6%] top-[55%] w-29 rotate-90",
+    className: " hidden lg:block right-[6%] top-[55%] w-29 rotate-90",
     delay: "1.5s",
   },
 ];
@@ -38,7 +38,7 @@ export default function BookingCTA() {
             key={index}
             src={petal.src}
             alt=""
-            className={`absolute hidden animate-petal-float opacity-70 sm:block ${petal.className}`}
+            className={`absolute  animate-petal-float opacity-70 sm:block ${petal.className}`}
             style={{ animationDelay: petal.delay }}
           />
         ))}
