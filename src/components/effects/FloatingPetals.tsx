@@ -2,7 +2,7 @@ type Petal = { src: string; className: string; delay?: string };
 
 const petals: Petal[] = [
   { src: "/images/petal-a.png", className: "left-[0%] top-[82%]  lg:left-[20%] lg:top-[42%]   w-30 rotate-22", delay: "0s" },
-  { src: "/images/petal-b.png", className: "left-[60%] lg:left-[25%] top-[6%] w-24 lg:w-35 -rotate-22", delay: "-2s" },
+  { src: "/images/petal-b.png", className: "left-[75%] lg:left-[25%] top-[6%] w-24 lg:w-35 -rotate-22", delay: "-2s" },
   { src: "/images/petal-b.png", className: " hidden lg:block left-[0%] top-[52%] w-30 -rotate-90", delay: "0s" },
   { src: "/images/petal-b.png", className: "left-[5%] top-[60%] lg:top-[15%] w-30 rotate-90", delay: "-2s" },
   { src: "/images/petal-b.png", className: "hidden lg:block left-[25%] top-[75%] w-35 -rotate-0", delay: "-2s" },

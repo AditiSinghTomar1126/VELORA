@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="page-shell flex justify-between mt-14 border-t border-light/15 p-6 text-xs text-light/45">
+      <div className="page-shell flex flex-wrap justify-between mt-14 border-t border-light/15 p-6 text-xs text-light/45">
        <span>© {new Date().getFullYear()} VELORA. All rights reserved.</span>
       
        <span > Made and Managed by ATNexus Tech.</span>
